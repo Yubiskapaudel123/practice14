@@ -1,0 +1,650 @@
+    .maindiv {
+        background-color: rgb(231, 228, 228);
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .subtext {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .name {
+        width: 90%;
+        height: 90%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .name div {
+        padding: 33px;
+        text-transform: capitalize;
+        font-size: 30px;
+        font-weight: 600;
+        cursor: pointer;
+        color: red;
+    }
+    
+    .menu {
+        /* background-color: red; */
+        height: 50px;
+        width: 50px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .menu div {
+        height: 5px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: black;
+    }
+    
+    .sidebox {
+        background-color: lightgray;
+        width: 200px;
+        height: 100%;
+        position: fixed;
+        top: 80px;
+        right: 0px;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(150%);
+        transition: transform 600ms ease-in-out;
+    }
+    
+    .sidebox a {
+        padding: 35px;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: black;
+        font-weight: 600;
+    }
+    
+    .subtext a {
+        padding: 33px;
+        text-transform: capitalize;
+        font-weight: 600;
+        cursor: pointer;
+        color: black;
+    }
+    
+    .subtext a:hover {
+        color: red;
+        transform: scale(1.09);
+    }
+    
+    .innerdiv {
+        background-color: rgb(248, 226, 229);
+        width: 100%;
+        height: 500px;
+    }
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 170px;
+    }
+    
+    .text {
+        font-size: 56px;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: orangered;
+    }
+    
+    .lorem {
+        padding: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    
+    .middlediv {
+        /* background-color: lightgrey; */
+        width: 100%;
+        height: 50%;
+        margin-top: 30px;
+    }
+    
+    .portfolio {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+        margin-left: 90px;
+    }
+    
+    .content {
+        /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        gap: 40px;
+        width: 90%;
+        height: 400px;
+        padding: 40px 0px;
+        margin: 0px auto;
+    }
+    
+    .product {
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        /* justify-content: flex-start; */
+        margin: 0px auto;
+        width: 85%;
+        height: 200px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .product:hover {
+        transform: scale(1.09);
+        transition: 400ms ease-in-out;
+    }
+    
+    .picture img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .faqs {
+        background-color: rgb(248, 226, 229);
+        width: 100%;
+        height: 500px;
+        margin-top: 170px;
+    }
+    
+    .faq {
+        background-color: rgb(248, 226, 229);
+        width: 100%;
+        height: 500px;
+        margin-top: 170px;
+    }
+    
+    .containers {
+        /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 40px;
+        width: 90%;
+        height: 400px;
+        padding: 40px 0px;
+        margin: 0px auto;
+    }
+    
+    .sub_text {
+        background-color: rgb(248, 226, 229);
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        /* justify-content: flex-start; */
+        margin: 0px auto;
+        height: 350px;
+        width: 100%;
+    }
+    
+    .names {
+        font-size: 25px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: orangered;
+    }
+    
+    .texting {
+        color: rgb(131, 128, 128);
+        margin-top: 15px;
+    }
+    
+    .head div {
+        padding: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: rgb(131, 128, 128);
+    }
+    
+    .header div {
+        padding: 15px;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+        color: rgb(131, 128, 128);
+    }
+    
+    .companyMoto {
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 40px;
+        width: 90%;
+        padding: 40px 0px;
+        margin: 0px auto;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    
+    .heading {
+        /* background-color: aqua; */
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+    }
+    
+    .imaGes img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    
+    .right_title {
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .sub-title {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(131, 126, 126);
+    }
+    
+    .heading:hover {
+        background-color: white;
+        color: black;
+        transform: scale(1.09);
+        border: 1px solid lightgrey;
+        box-shadow: 1px 1px 10px lightgrey;
+        cursor: pointer;
+        transition: transform 400ms ease-in-out;
+    }
+    
+    .card {
+        /* background-color: lightgray; */
+        width: 100%;
+        height: 470px;
+        margin-top: 100px;
+    }
+    
+    .testimonial {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cards {
+        /* background-color: aqua; */
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 40px;
+        width: 90%;
+        height: 400px;
+        padding: 40px 0px;
+        margin: 0px auto;
+    }
+    
+    .subproduct {
+        background-color: rgb(248, 226, 229);
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        /* justify-content: flex-start; */
+        margin: 0px auto;
+        height: 350px;
+        width: 100%;
+        box-shadow: 1px 1px 10px lightgray;
+        cursor: pointer;
+    }
+    
+    .subproduct:hover {
+        background-color: white;
+        transform: scale(1.09);
+        transition: transform 400ms ease-in-out;
+    }
+    
+    .image {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    
+    .image img {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        padding: 30px;
+    }
+    
+    .info {
+        margin-top: -90px;
+        font-size: 18px;
+        text-transform: capitalize;
+        padding: 13px;
+        color: orangered;
+        font-weight: 700;
+    }
+    
+    .customer {
+        margin-top: -5px;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: rgb(110, 108, 108);
+        margin-left: 15px;
+    }
+    
+    .texts {
+        margin-top: 50px;
+        /* text-align: center; */
+        padding: 15px;
+    }
+    
+    .sub_product {
+        background-color: white;
+        width: 100%;
+        height: 750px;
+        margin-top: 170px;
+    }
+    
+    .container {
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        padding: 40px auto;
+        gap: 70px;
+        width: 85%;
+        margin: 0px auto;
+    }
+    
+    .sub_title {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 350px;
+        width: 85%;
+        /* margin-left: 20px; */
+        margin: 0px auto;
+        cursor: pointer;
+    }
+    
+    .sub_title:hover {
+        transform: scale(1.09);
+        transition: transform 400ms ease-in-out;
+    }
+    
+    .images {
+        content: "";
+        width: 100%;
+        height: 180px;
+        background-color: white;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .images img {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .products_item {
+        margin: 10px;
+        position: relative;
+    }
+    
+    .date {
+        /* margin-top: 20px; */
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    
+    .sub_head {
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .information {
+        /* background-color: aqua; */
+        width: 100%;
+        height: 390px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 90px;
+        margin-top: 50px;
+    }
+    
+    .lefts2 {
+        /* background-color: blue; */
+        margin-left: 60px;
+        margin-top: -10px;
+    }
+    
+    .contactinfo {
+        padding: 50px;
+        margin-top: 40px;
+    }
+    
+    .contactinfo div {
+        font-size: 26px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .lorems {
+        font-size: 17px;
+        text-transform: capitalize;
+        text-align: center;
+        color: rgb(104, 104, 104);
+    }
+    
+    .right2 {
+        /* background-color: red; */
+    }
+    
+    .form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    
+    .form .form-control {
+        padding: 30px;
+    }
+    
+    .form-control {
+        padding: 10px;
+        height: 20px;
+        width: 80%;
+    }
+    
+    .form-control input {
+        width: 100%;
+        height: 45px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        outline: 1px solid lightgrey;
+        border: none;
+    }
+    
+    .massege {
+        background-color: rgb(247, 44, 44);
+        width: 160px;
+        height: 55px;
+        border-radius: 10px;
+        margin-top: 50px;
+    }
+    
+    .massege div {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+        cursor: pointer;
+    }
+    
+    .details {
+        margin-left: 55px;
+    }
+    
+    .address {
+        font-size: 23px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .addressinfo {
+        margin-top: 10px;
+    }
+    
+    .addressinfo {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: rgb(128, 126, 126);
+        font-weight: 600;
+    }
+    
+    .phone {
+        margin-top: 25px;
+        font-size: 23px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .number {
+        font-size: 16px;
+        color: rgb(128, 126, 126);
+        font-weight: 600;
+    }
+    
+    .email {
+        margin-top: 25px;
+        font-size: 23px;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+    .emailinfo {
+        font-size: 16px;
+        color: rgb(128, 126, 126);
+        font-weight: 600;
+    }
+    
+    @media (min-width:768px) and (max-width:1024px) {
+        .menu {
+            /* background-color: red; */
+            height: 50px;
+            width: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-right: 50px;
+            cursor: pointer;
+        }
+        .subtext {
+            display: none;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .content {
+            margin-top: 100px;
+        }
+        .product {
+            gap: 70px;
+        }
+        .companyMoto {
+            width: 100%;
+            margin-left: 15px;
+        }
+        .testimonial {
+            margin-top: -80px;
+        }
+        .card {
+            /* background-color: lightgray; */
+            width: 100%;
+            height: 400px;
+            margin-top: 100px;
+        }
+        .cards {
+            /* background-color: aqua; */
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .sub_product {
+            background-color: white;
+            width: 100%;
+            height: 650px;
+            margin-top: 100px;
+        }
+        .faq {
+            margin-top: 550px;
+        }
+        .container {
+            /* background-color: red; */
+            display: grid;
+            grid-template-columns: auto auto;
+            padding: 40px auto;
+            gap: 30px;
+            width: 85%;
+            margin: 0px auto;
+        }
+        .information {
+            width: 75%;
+            margin: 0px auto;
+        }
+        .lefts2 {
+            width: 200px;
+        }
+        .contactinfo div {
+            font-size: 17px;
+        }
+        .address {
+            font-size: 17px;
+        }
+        .phone {
+            font-size: 17px;
+        }
+        .email {
+            font-size: 17px;
+        }
+    }
